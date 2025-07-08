@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react';
 
 // Config with real faucets and chains
 const config = {
-  chains: [
-  { id: 'ethereum-goerli', name: 'Ethereum Goerli', logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.svg' },
-  { id: 'polygon-mumbai', name: 'Polygon Mumbai', logo: 'https://cryptologos.cc/logos/polygon-matic-logo.svg' },
-  { id: 'binance-testnet', name: 'Binance Smart Chain Testnet', logo: 'https://cryptologos.cc/logos/bnb-bnb-logo.svg' },
-  { id: 'avalanche-fuji', name: 'Avalanche Fuji', logo: 'https://cryptologos.cc/logos/avalanche-avax-logo.svg' },
-  { id: 'fantom-testnet', name: 'Fantom Testnet', logo: 'https://cryptologos.cc/logos/fantom-ftm-logo.svg' },
-  { id: 'arbitrum-goerli', name: 'Arbitrum Goerli', logo: 'https://cryptologos.cc/logos/arbitrum-arb-logo.svg' },
-  { id: 'optimism-goerli', name: 'Optimism Goerli', logo: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.svg' }
+chains: [
+  { id: 'ethereum-goerli', name: 'Ethereum Goerli', logo: '/images/ethereum-eth-logo.svg' },
+  { id: 'polygon-mumbai', name: 'Polygon Mumbai', logo: '/images/polygon-matic-logo.svg' },
+  { id: 'binance-testnet', name: 'Binance Smart Chain Testnet', logo: '/images/bnb-bnb-logo.svg' },
+  { id: 'avalanche-fuji', name: 'Avalanche Fuji', logo: '/images/avalanche-avax-logo.svg' },
+  { id: 'fantom-testnet', name: 'Fantom Testnet', logo: '/images/fantom-ftm-logo.svg' },
+  { id: 'arbitrum-goerli', name: 'Arbitrum Goerli', logo: '/images/arbitrum-arb-logo.svg' },
+  { id: 'optimism-goerli', name: 'Optimism Goerli', logo: '/images/optimism-ethereum-op-logo.svg' }
 ],
   faucets: [
     { chainId: 'ethereum-goerli', name: 'Goerli Faucet - Alchemy', description: 'Get free ETH on Ethereum Goerli using Alchemy', url: ' https://faucets.alchemy.com/ ', lastUpdated: '2024-04-01' },
